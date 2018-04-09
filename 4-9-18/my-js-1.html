@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> My JS</title>
+     <script>
+      let g = 75;
+      function grade_calc (g) {
+        if (g>= 90) {
+          return"A";
+        } else if (g>=80) {
+          return "B";
+        } else if (g>=70){
+          return "C";
+        } else if (g>=60){
+          return "D";
+        } else {
+          return "F";
+        }
+      }
+
+              console.log("you got " + grade_calc(90));
+              console.log("you got " + grade_calc(69));
+              console.log("you got " + grade_calc(87));
+
+
+     </script>
+
+     <script>
+       var grade = 75;
+         switch (true) {
+           case grade>=90:
+             console.log("your grade is an A");
+          break;
+          case grade>=80:
+              console.log("your grade is a B");
+          break;
+          case grade>=70:
+              console.log("your grade is a C");
+          break;
+          case grade>=60:
+              console.log("your grade is a D");
+          break;
+          default:
+              console.log('your grade is an F');
+         }
+         
+     </script>
+  </head>
+  <body>
+    <h1> Basic Javascript Exercise, See console for outputs </h1>
+  </body>
+</html>
