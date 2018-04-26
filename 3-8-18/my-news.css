@@ -5,13 +5,8 @@ body {
 }
 
 
+
 .navigation ul {
-  list-style-type: none;
-  text-align: center;
-
-}
-
-.navigation li {
   font-weight: 100;
   letter-spacing: 2px;
   padding: 20px;
