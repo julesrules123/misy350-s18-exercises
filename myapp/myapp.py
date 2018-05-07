@@ -6,19 +6,14 @@ app = Flask(__name__)
 def index ():
     return render_template('index.html')
 
-@app.route('/form-basics')
+@app.route('/form')
 def formbasics ():
-    return render_template('form-basics.html')
+    return render_template('form.html')
 
 
 @app.route('/users/<string:username>')
 def users(username):
-    return render_template('user.html',uname=username)
-
-@app.route('/user')
-def user():
-    return "this is the page for users"
-
+    return render_template('users.html',username=username)
 
 
 if __name__ == '__main__':
